@@ -52,6 +52,9 @@ class Health {
 
 	const CACHE_GROUP = 'vip_search';
 
+	public $indexables;
+	public $elasticsearch;
+
 	/**
 	 * Instance of Search class
 	 *

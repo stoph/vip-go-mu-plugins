@@ -16,6 +16,7 @@ class Queue {
 	public $schema;
 	public $indexables;
 	public $logger;
+	public $cron;
 
 	public const INDEX_COUNT_CACHE_GROUP            = 'vip_search';
 	public const INDEX_COUNT_CACHE_KEY              = 'index_op_count';

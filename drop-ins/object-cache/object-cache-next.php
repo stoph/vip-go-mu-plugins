@@ -126,11 +126,12 @@ class WP_Object_Cache {
 
 	var $no_mc_groups = array();
 
-	var $cache       = array();
-	var $mc          = array();
-	var $default_mcs = array();
-	var $stats       = array();
-	var $group_ops   = array();
+	var $cache               = array();
+	var $mc                  = array();
+	var $default_mcs         = array();
+	var $stats               = array();
+	var $group_ops           = array();
+	var $memcache_debug      = array();
 
 	var $flush_group         = 'WP_Object_Cache';
 	var $global_flush_group  = 'WP_Object_Cache_global';

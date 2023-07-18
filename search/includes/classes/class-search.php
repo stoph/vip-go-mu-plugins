@@ -177,6 +177,7 @@ class Search {
 	public $queue_wait_time;
 	/** @var Queue */
 	public $queue;
+	public $cache;
 	/** @var Versioning */
 	public $versioning;
 	public $indexables;
